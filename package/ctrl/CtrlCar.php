@@ -14,10 +14,10 @@
             $car->isNewer = $jsonObject->isNewer;
             $carsArray = AplCar::getCars( $car, $search );
 
-            $handle = fopen('data.txt', 'a');
+            /*$handle = fopen('data.txt', 'a');
             fwrite($handle, 'Test Retry'."\n" );
             fclose($handle);
-            sleep(2);
+            sleep(2);*/
 
             /*if( !$jsonObject->isNewer ){
                 array_shift($carsArray);
