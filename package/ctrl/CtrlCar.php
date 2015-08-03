@@ -1,6 +1,7 @@
 <?php
     session_start();
     require_once('../../autoload.php');
+    require_once('../../vendor/autoload.php');
 
 
     if( $_SERVER['REQUEST_METHOD'] === 'POST' ){
@@ -23,6 +24,8 @@
                 array_shift($carsArray);
             }*/
 
+            sleep(2);
+
             header('Content-Type: application/json; charset=utf-8');
             echo json_encode( $carsArray );
         }
@@ -37,4 +40,17 @@
             header('Content-Type: application/json; charset=utf-8');
             echo json_encode( $carsArray );
         }
+
+
+        else if( strcasecmp($jsonObject->method, Contact::METHOD_CONTACT) == 0 ){
+            $response = new Response();
+
+            $contact = new Contact();
+            $contact->setAllData( $jsonObject );
+            AplContact::sendContactToAdmin( $contact, $response );
+
+            header('Content-Type: application/json; charset=utf-8');
+            echo json_encode( [$response] );
+        }
+
     }
