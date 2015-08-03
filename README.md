@@ -1,8 +1,11 @@
 TCMaterialDesign Web
 ===========================================
 
+<<<<<<< HEAD
 [English version](https://github.com/viniciusthiengo/tc-material-design/blob/master/README-EN.md)
 
+=======
+>>>>>>> github/master
 ## Projeto ##
 
 Essa é a versão Web ou segunda parte da APP TCMaterialDesign que passou a ser a APP oficial dos exemplos nos vídeos do [canal Thiengo Calopsita no YouTube](https://www.youtube.com/user/thiengoCalopsita).
@@ -36,4 +39,8 @@ Tem também a APP do Blog:
 
 * [APP Blog Thiengo Calopsita](https://play.google.com/store/apps/details?id=br.thiengocalopsita&hl=pt_BR)
 
+<<<<<<< HEAD
 Sinta-se livre para enviar qualquer dica, correção, ... se possível, em caso de uma solução encontrada para um possível problema informado em algum dos vídeos, coloque também na área de comentários do Blog a solução encontrada, assim ajuda a todos que tiverem o mesmo problema.
+=======
+Sinta-se livre para enviar qualquer dica, correção, ... se possível, em caso de uma solução encontrada para um possível problema informado em algum dos vídeos, coloque também na área de comentários do Blog a solução encontrada, assim ajuda a todos que tiverem o mesmo problema.
+>>>>>>> github/master
