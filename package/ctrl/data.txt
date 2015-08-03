@@ -1,0 +1,10 @@
+--> {"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Erro de SMTP: Dados rejeitados.Erro de servidor SMTP: DATA END command failed Detail: Message rejected: Email address is not verified.\r\n SMTP code: 554"}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
+--> [{"code":0,"status":true,"message":"Mensagem de contato enviada com sucesso."}]
